@@ -18,18 +18,14 @@ function renderTodoList() {
     todoListHTML += html;
   }
 
-  function deleteList(index){
-    mtArr.splice(index, 1);
-    localStorage.setItem('mtArr', JSON.stringify(mtArr));
-    renderTodoList();
-  } 
-
-  
-
   document.querySelector('.js-todo-list').innerHTML = todoListHTML
 }
 
-
+function deleteList(index){
+  mtArr.splice(index, 1);
+  localStorage.setItem('mtArr', JSON.stringify(mtArr))
+  renderTodoList();
+}
 
 
 function addTodo(){
@@ -43,7 +39,7 @@ function addTodo(){
     alert('Please fill the data');
     return;
   }
-  
+
   mtArr.push({
     name,
     dueDate
