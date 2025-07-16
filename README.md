@@ -3,7 +3,8 @@ A simple and interactive To-Do List application built with HTML, CSS, and JavaSc
 
 ## 🔗 Live Demo
 👉 Try the To-Do List
-Replace with your actual GitHub Pages or Netlify link.
+
+https://todolist-harishmh.netlify.app/
 
 ## 🛠️ Tech Stack
 ✅ HTML5 – Structure and layout
